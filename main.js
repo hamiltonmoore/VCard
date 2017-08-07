@@ -15,6 +15,7 @@ function functionName() {
     </div>
 
 <div class="threespaces">
+
 <div class="basic_info">
     <h2>Basic Info</h2>
     <div>Name: ${data.name}</div>
@@ -23,16 +24,16 @@ function functionName() {
     <div>Company ${data.company}</div>
     <div>Website ${data.blog}</div>
 </div>
-
-<div class="bio">
+<div class="story">
     <h2>Biography</h2>
+<div class="bio">
+    
     <p>Bio ${data.bio}</p>
-</div>
-
-<div class="photo">
     <img  src="${data.avatar_url}" alt="athingy">
 </div>
+</div>
 </div>`
+
 
     document.querySelector(".wrapper").innerHTML = basics;
 
