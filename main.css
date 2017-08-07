@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    align-content: center;
+}
+
+.container {
+    padding: 5rem 25rem 5rem 25rem;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem 10rem 1rem 10rem;
+}
+
+h1 {
+    font-size: 21px;
+}
+
+.threespaces {
+    display: flex;
+}
+
+.basic_info {
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+.bio {
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+.bio p {
+    padding-left: 1rem;
+    border-left: 1px solid lightgray;
+}
+
+img {
+    width: 170px;
+    height: 170px;
+    padding: 2rem 2rem 2rem 2rem;
+    border-radius: 50%;
+}
